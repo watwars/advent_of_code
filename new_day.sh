@@ -1,6 +1,9 @@
 #!/bin/bash
 
-day=$1
+year=$1
+day=$2
+
+cd year
 
 mkdir $day
 cd $day
